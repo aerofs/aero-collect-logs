@@ -13,7 +13,10 @@ Second, run the following command in your appliance console root shell:
 
 Alternatively, use:
 
-    bash <(curl -sL https://bit.ly/1Hl2cv1)
+    bash <(curl -sL https://bit.ly/1PMPUOH)
+
+A web server will be running on port 8080. Navigate to `http://<appliance-ip>:8080/` to download
+your logs.
 
 ## Credits
 
