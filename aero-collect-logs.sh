@@ -14,7 +14,7 @@ echo "Collecting logs from Aero docker containers..."
 CONTAINERS=$(docker ps -a | rev | awk 'NR > 1 {print $1}'| rev)
 for container in ${CONTAINERS}
 do
-    docker logs ${container} > ${TMP_LOGS}/${container}.log 2>&1
+    docker logs -t ${container} > ${TMP_LOGS}/${container}.log 2>&1
 done
 tar -zcvf ${LOG_FILENAME} -C ${TMP_LOGS} .
 chmod +r ${LOG_FILENAME}
