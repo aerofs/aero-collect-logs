@@ -9,7 +9,7 @@ instructions as to how to enter your appliance console.
 
 Second, run the following command in your appliance console root shell:
 
-    bash <(curl -sL https://raw.githubusercontent.com/mpillar/aero-collect-logs/master/aero-collect-logs.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/aerofs/aero-collect-logs/master/aero-collect-logs.sh)
 
 Alternatively, use:
 

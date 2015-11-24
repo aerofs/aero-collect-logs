@@ -21,7 +21,7 @@ chmod +r ${LOG_FILENAME}
 rm -rf ${TMP_LOGS}
 
 # Start a simple HTTP server to serve up the logs files.
-wget -q https://raw.githubusercontent.com/mpillar/aero-collect-logs/master/bashttpd
+wget -q https://raw.githubusercontent.com/aerofs/aero-collect-logs/master/bashttpd
 chmod +x bashttpd
 echo "serve_file ${TMP}/${LOG_FILENAME}" > bashttpd.conf
 
