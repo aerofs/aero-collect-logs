@@ -1,6 +1,8 @@
-# Aero Collect Logs
+# Collect Logs
 
-A tool to collect logs from Aero Appliances when the Aero web module does not launch.
+## Overview
+
+This is a tool to collect logs from AeroFS Appliances when the AeroFS web module does not launch.
 
 ## Usage
 
@@ -13,7 +15,7 @@ Second, run the following command in your appliance console root shell:
 
 Alternatively, use:
 
-    bash <(curl -sL https://bit.ly/1PMPUOH)
+    bash <(curl -sL http://bit.ly/1ZzSF6d)
 
 A web server will be running on port 8080. Navigate to `http://<appliance-ip>:8080/` to download
 your logs.
