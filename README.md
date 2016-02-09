@@ -11,11 +11,11 @@ instructions as to how to enter your appliance console.
 
 Second, run the following command in your appliance console root shell:
 
-    bash <(curl -sL https://raw.githubusercontent.com/aerofs/aero-collect-logs/master/aero-collect-logs.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/aerofs/aero-collect-logs/master/collect-logs)
 
 Alternatively, use:
 
-    bash <(curl -sL http://bit.ly/1ZzSF6d)
+    bash <(curl -sL http://ae.ro/1SeqCu5)
 
 A web server will be running on port 8080. Navigate to `http://<appliance-ip>:8080/` to download
 your logs.
